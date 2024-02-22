@@ -1,10 +1,3 @@
-const menu = document.querySelector('.menu');
-const NavMenu = document.querySelector('.nav-menu');
-
-menu.addEventListener('click', () => {
-    menu.classList.toggle('ativo');
-    NavMenu.classList.toggle('ativo');
-})
 function exibirMensagem(event) {
     event.preventDefault(); // Prevent page reload
 
